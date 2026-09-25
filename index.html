@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Lau Chi Wang" />
+    <meta name="theme-color" content="#f7f8fa" />
+    <title>Lau Chi Wang</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Georgia, "Times New Roman", serif;
+        background: #f7f8fa;
+        color: #181a1f;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+        margin: 0;
+      }
+
+      body {
+        min-height: 100vh;
+        min-height: 100svh;
+        background:
+          linear-gradient(#dce1e8 1px, transparent 1px) 0 50% / 100% 1px no-repeat,
+          #f7f8fa;
+      }
+
+      main {
+        display: grid;
+        min-height: 100vh;
+        min-height: 100svh;
+        place-items: center;
+        padding: 2rem;
+      }
+
+      h1 {
+        position: relative;
+        margin: 0;
+        padding: 1.25rem 0;
+        font-size: 5.5rem;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0;
+        text-align: center;
+      }
+
+      h1::after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 2.75rem;
+        height: 0.25rem;
+        background: #d6402b;
+        content: "";
+      }
+
+      @media (max-width: 40rem) {
+        h1 {
+          font-size: 2.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Lau Chi Wang</h1>
+    </main>
+  </body>
+</html>
